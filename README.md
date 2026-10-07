@@ -18,7 +18,7 @@ Based on the open-source **A.I. Duet** experiment by **Yotam Mann & Google Creat
 ## ✨ Features
 
 - ⚡ **Zero Backend Required:** Google Magenta's Melody RNN model runs entirely in your browser tab via **WebAssembly (`onnxruntime-web`)** in **<15 ms**.
-- 🌐 **Free GitHub Pages Hosting:** Push this repository to GitHub and enable Pages — zero server hosting costs, zero credit cards, zero Docker containers!
+- 🌐 **Free GitHub Pages Hosting:** Push this repository to GitHub and enable Pages. Play a music fun.
 - 🎹 **Full 88-Key Acoustic Piano:** High-fidelity multi-sampled Yamaha C5 Grand Piano (`Salamander`) soundfont + warm string ensemble backing layer.
 - 🎛️ **Dual Duet Modes:**
   - **Turn-Based (Call & Response):** You play a musical phrase, and the AI improvises a musical answer.
@@ -27,28 +27,6 @@ Based on the open-source **A.I. Duet** experiment by **Yotam Mann & Google Creat
 - 🎯 **Nucleus ($p=0.90$) Sampling:** Prevents machine-gun note spam while preserving natural phrasing and musical rests.
 - 🎹 **Multi-Modal Controls:** Play via computer keyboard, mouse/touch, or plug in any USB **Web MIDI keyboard controller**.
 - 💾 **MIDI Session Export:** Record your duet and export a standard multi-track `.mid` file.
-
----
-
-## 🚀 Instant Deployment to GitHub Pages
-
-This repository is structured so that you can publish it directly to GitHub Pages with **zero build steps on GitHub**:
-
-1. Create a new GitHub repository named **`ai-duo-play`** and push these files to your `main` branch:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit of AI Duet Web"
-   git branch -M main
-   git remote add origin https://github.com/DigitLib/ai-duo-play.git
-   git push -u origin main
-   ```
-2. On GitHub, go to your repository **Settings** → **Pages**.
-3. Under **Build and deployment** → **Source**, select **Deploy from a branch**.
-4. Set Branch to **`main`** and folder to **`/ (root)`**.
-5. Click **Save**.
-6. In ~60 seconds, your A.I. Duet will be live at:
-   **`https://digitlib.github.io/ai-duo-play/`**!
 
 ---
 
